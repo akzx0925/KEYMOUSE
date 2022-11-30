@@ -1,0 +1,204 @@
+body{
+  margin: 0;
+  padding:0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("feedbackbg.jpg");
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.bruh2{
+    position:relative;
+    width: 600px;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+
+}
+h2{
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  border-bottom: 5px solid;
+}
+
+input[type="submit"]{
+  width: 80%;
+  height: 50px;
+  position:relative;
+  right: -40px;
+  margin-top:-5;
+  border: 1px solid;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  top: -8px;
+}
+input[type="submit"]:hover{
+  border-color: transparent;
+  transition: .5s;
+  color:black;
+  background-color: white;
+}
+.field1{
+  color: white;
+  margin:0 0 8px 0;
+}
+.field2{
+  color: white;
+  margin:0 0 5px 0;
+}
+textarea{
+  resize:none;
+  font-family:arial;
+  width: 85%;
+}
+.field3{
+  color: white;
+  position: relative;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: gold;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: gold;
+}
+
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+
+        }
+
+
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 34px;
+        }
+
+
+
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+
+        .topnav .icon {
+          display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+          .topnav a:not(:first-child) {display: none;}
+            .topnav a.icon {
+              float: right;
+              display: block;
+            }
+          }
+
+        @media screen and (max-width: 600px) {
+          .topnav.responsive {position: relative;}
+          .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+
+      img{
+        width:100%;
+      }
+
+      #short{
+        width:20%;
+        max-width: 150px;
+      }
+      #bruh{
+        float:right;
+        width:5%;
+        max-width: 40px;
+        max-height: 39px;
+      }
+      input:invalid {
+        border-color: #900;
+        background-color: #fdd;
+      }
+      textarea:invalid{
+          border-color: #900;
+          background-color: #fdd;
+      }
+
+      #Comment{
+        font-size: 20px;
+        font-family: Tahoma, sans-serif;
+      }
+      #ph{
+         font-family: Tahoma, sans-serif;
+         font-size:20px;
+      }
+      #mail{
+         font-family: Tahoma, sans-serif;
+         font-size:20px;
+      }
+      #Username{
+         font-family: Tahoma, sans-serif;
+         font-size:20px;
+      }
+      #q4{
+           font-family: Tahoma, sans-serif;
+           font-size:18px;
+      }
+      #nothing{
+           font-family: Tahoma, sans-serif;
+           font-size:15px;
+           color:red;
+      }
+      #nothing1{
+           font-family: Tahoma, sans-serif;
+           font-size:15px;
+           color:red;
+      }

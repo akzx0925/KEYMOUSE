@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+
+<title> Feedback </title>
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
+</head>
+<body>
+<div class="topnav" id="top">
+    <a id = short href='index.html'><img class="keymouse" src="Keymouse.JPG" scale="0">
+        </a>
+    <div class="choice">
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="product_list.html">Product</a>
+      <a id = bruh href='cart.html'><img class="keymouse" src="cart.png" scale="0"></a>
+      <a id = bruh href='login.html'><img class="keymouse" src="pf.png" scale="0"></a>
+    </div>
+  </div>
+<div class="bruh2">
+  <h2>Contact Form</h2>
+<form method="POST"id="form">
+
+  <ul>
+    <div class="field1">
+        <label for="username" id="Username">Name:</label>
+          <input type ="text" required>
+    </div>
+    <div class="field2">
+        <label for="email" id="mail">Email:</label>
+        <input type ="email" name="email"id="Email" required>
+        <div id="nothing"></div>
+    </div>
+    <div class="phone">
+        <label for="ph" id="ph">Phone Number:</label>
+          <input type ="phone" id="phone" required>
+        <div id="nothing1"></div>
+    </div>
+    <div class="field3">
+        <label for="comment" id="Comment">Comment:</label><br>
+        <textarea rows="5" name="message" required></textarea>
+    </div>
+    <label id="q4">What do you think of our service? (Rate at least one star to submit the form)</label>
+    <br>
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text"></label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text"></label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text"></label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text"></label>
+      <input type="radio" id="star1" name="rate" value="1" required/>
+      <label for="star1" title="text"></label>
+    </div>
+  </ul>
+  <input type="submit" value="Done">
+</form>
+</div>
+</body>
+</html>
